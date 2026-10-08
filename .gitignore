@@ -1,0 +1,15 @@
+# File di stato di Terraform (non devono finire su Git)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Cartella di inizializzazione di Terraform
+.terraform/
+
+# File di variabili contenente segreti e password reali
+terraform.tfvars
+*.auto.tfvars
+
+# Eventuali chiavi o token locali
+*.pem
+*.key

@@ -1,0 +1,5 @@
+location = "westeurope"
+resource_group_name = "rg-lab-example"
+vm_size = "Standard_B2s"
+admin_username = "azureuser"
+admin_password = "CHANGE_ME"
