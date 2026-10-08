@@ -40,3 +40,8 @@ variable "tags" {
   description = "Tag di identificazione per le risorse"
   default     = {}
 }
+
+variable "allowed_ssh_cidr" {
+  type        = string
+  description = "CIDR allowed to connect via SSH"
+}
